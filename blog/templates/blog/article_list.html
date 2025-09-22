@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Мой Блог</title>
+</head>
+
+<body>
+    <h1>Все статьи</h1>
+    {% for article in articles %}
+    <div>
+        <h2>{{ article.title }}</h2>
+        <p><em>Опубликовано: {{ article.pub_date }}</em></p>
+        <p>{{ article.content }}</p>
+    </div>
+    <hr>
+    {% empty %}
+    <p>Статей пока нет.</p>
+    {% endfor %}
+</body>
+
+</html>

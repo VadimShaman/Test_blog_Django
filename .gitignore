@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+env/
+.myenv
+.venv
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# База данных SQLite (если используете и не хотите пушить)
+*.sqlite3
+*.db
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+*.log
+
+# Статические файлы (если собираются при деплое)
+/staticfiles/
+/media/
