@@ -27,3 +27,5 @@ __pycache__/
 # Статические файлы (если собираются при деплое)
 /staticfiles/
 /media/
+
+README.md
